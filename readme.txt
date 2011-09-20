@@ -1,6 +1,9 @@
 === Simple Mathjax ===
 Contributors: sgcoskey
+Donate link: http://boolesrings.org
 Tags: mathjax, latex
+Requires at least: 3.0
+Tested up to: 3.2.1
 Stable tag: 0.0
 
 Yet another plugin to add mathjax support to your wordpress blog.  This is the only plugin that uses $ signs for equations by default.
@@ -17,3 +20,11 @@ CDN used (the mathjax server) and the configuration (if you know about mathjax
 configuration specifications).  You can also specify a LaTeX "preamble" of
 newcommnds which will be loaded in a hidden element near the top of each
 page.
+
+== Installation ==
+
+As per usual
+
+== Changelog ==
+
+0.0 initial release
