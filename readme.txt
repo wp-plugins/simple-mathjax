@@ -18,7 +18,7 @@ in-line and displayed equations.
 A preference pane is added to the "Settings" group where you can modify the
 CDN used (the mathjax server) and the configuration (if you know about mathjax
 configuration specifications).  You can also specify a LaTeX "preamble" of
-newcommnds which will be loaded in a hidden element near the top of each
+newcommands which will be loaded in a hidden element near the top of each
 page.
 
 == Installation ==
