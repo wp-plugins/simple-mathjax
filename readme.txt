@@ -27,8 +27,8 @@ for details on the options available.)  You can also specify a LaTeX
 "preamble" of newcommands which will be loaded in a hidden element
 near the top of each page.
 
-Fork this plugin on
-[GitHub](https://github.com/scoskey/Simple-Mathjax-wordpress-plugin)
+Report bugs, give feedback, or fork this plugin on
+[GitHub](https://github.com/scoskey/Simple-Mathjax-wordpress-plugin).
 
 == Installation ==
 
