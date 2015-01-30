@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Simple Mathjax
  * Description: Load the mathjax scripts across your wordpress blog
- * Version: 0.5
+ * Version: 0.6
  * Author: Samuel Coskey, Peter Krautzberger
  * Author URI: http://boolesrings.org
 */
@@ -14,7 +14,7 @@
 add_action('wp_head','configure_mathjax',1);
 function configure_mathjax() {
   $custom_config = wp_kses( get_option('custom_mathjax_config'), array() );
-  $config = $custom_config ? $custom_config : "MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']]}});\n";
+  $config = $custom_config ? $custom_config : "MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']], processEscapes: true}});\n";
   echo "\n<script type='text/x-mathjax-config'>\n" . $config . "</script>\n";
 }
 

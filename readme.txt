@@ -5,7 +5,7 @@ Donate link: http://boolesrings.org
 Tags: mathjax, latex
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 0.5
+Stable tag: 0.6
 
 Yet another plugin to add MathJax support to your wordpress blog.
 Just wrap your equations inside $ signs and MathJax will render
@@ -35,6 +35,8 @@ Fork this plugin on
 Nothing unusual here!
 
 == Changelog ==
+
+`0.6` allow writing dollar sign using backslash-dollar
 
 `0.5` minor code cleanup, allow mathjax in admin screens
 
